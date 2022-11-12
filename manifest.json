@@ -1,0 +1,12 @@
+{
+    "manifest-version": 3,
+    "name": "Rest yourself",
+    "description": "Reminder to rest from high intensity web browsing Extension",
+    "version": "1.0",
+    "actions": {
+        "default_icon": ,
+        "default_popup": 
+
+    }
+
+}
