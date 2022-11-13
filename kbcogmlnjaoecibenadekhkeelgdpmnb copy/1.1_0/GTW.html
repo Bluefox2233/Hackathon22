@@ -1,0 +1,66 @@
+<html>
+<head>
+<script src="popup.js">
+</script>
+</head>
+<body style=" min-width: 628px; min-height: 400px; background-image: url(water.png); background-color: lightblue;vertical-align: center;"> 
+
+<div id="water">
+<img id="gears" src="gears.png" height="16" width="16" align="right" />
+<center><h1 style="color: white" >Take A Break In</h1></center>
+<center>
+<input id='freq' type='text' size="3" style="color: white; text-align:center; font-size: 2em;font-weight: bold;
+				border: 0; outline: 0;background: transparent; border-bottom: 2px solid white;"/>
+<h1 style="color: white">Minutes</h1> 
+
+
+<input id='waterBtn' style="border: none; border-radius: 12px" type='button' value='Take a break now, and start the timer!' >
+<br />
+<br />
+<input id='stopBtn' style="border: none; border-radius: 12px" type='button' value='Stop the timer!'>
+<br />
+<br />
+<br />
+<br />
+<center><h1 style="color: white" >Resources:</h1></center>
+<br />
+<br />
+<input id='stretchBtn' style="border: none; border-radius: 12px" type='button' value='Stretch'>
+<br />
+<br />
+<input id='yogaBtn' style="border: none; border-radius: 12px" type='button' value='Ergonomics'>
+<br />
+<br />
+<input id='Gethelp' style="border: none; border-radius: 12px" type='button' value='Feeling extra burnt out? Get more help'>
+
+
+</div>
+<div id="options" style="color: white; display:none;">
+<img id="back" src="back.png" height="16" width="16" align="right" />
+<center><h1 >Options</h1></center>
+<center><h3>Select a Sound:</h3>
+	<select id="sound"  style="color: white; position: relative; left:5px;">
+		<option value="Default.mp3">Default</option>
+		<option value="Aurora.mp3">Aurora</option>
+		<option value="Beat.mp3">Beat</option>
+		<option value="Bling.mp3">Bling</option>
+		<option value="Bling2.mp3">Bling 2</option>
+		<option value="Chime.mp3">Chime</option>
+		<option value="Mamba.mp3">Mamba</option>
+		<option value="SingleBeep.mp3">Single Beep</option>
+		<option value="ThreeBeep.mp3">Three Beeps</option>
+		<option value="Whistle.mp3">Whistle</option>
+	</select>
+	<img id="testSound" src="sound.png" height="16" width="16" style="position: relative; left:7px; top:3px;"/>
+	<br />
+	
+	<input id="setOpts" type="button" value="Set"  style="position: relative; top:10px;"/>
+	<br />
+</center>
+</div>
+<div id="warn">
+</div>
+</center>
+
+</body>
+</html>
