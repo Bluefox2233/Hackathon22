@@ -30,7 +30,7 @@ function onStartGo(){
 			displayIndef = true;
 		}
 		var time = obj.time;
-		if(time != undefined && time != -1 && time != 0) {
+		if(time != undefined && time != -1 && time !=0) {
 			sleepTime = time * 60000;
 			remind();
 		}

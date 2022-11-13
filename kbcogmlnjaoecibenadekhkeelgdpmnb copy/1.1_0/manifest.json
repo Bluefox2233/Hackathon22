@@ -6,10 +6,10 @@
       "default_icon": "icon.png",
       "default_popup": "GTW.html"
    },
-   "description": "wellness",
+   "description": "Breaks4U",
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn7duCAfLvr+5Wk3zZ8bzrmIGUgs83fLhIv8T6uXGoQmxrMs2e0ApQDZw86U5K5/dm5ZX/zJg51RTcZpdiXXm2Er01XLey3We2hJuhW4ndiikMI6UGr8zXVvD1+Qm9Ru3lkvhXTdDziPQFv6/OZGUo5Wy/gjz9T3RrXr4u+zgvRV5zSOSw15y3MpVcn8Mor01hUBWEr9XpJm/e/W8jmBAHq38UswOP5n8V1wPjF8oC2fTbWML8DegKgVnndOqd98cZaLWCgbhe+RfY6wlcbdHYZgewSibXh72ReAt9puDBiDp7x4GesNSB2AA9llgoP+3Qs3kptHXzO26yPD1nyKdJQIDAQAB",
    "manifest_version": 2,
-   "name": "Wellness",
+   "name": "Breaks4U",
    "permissions": [ "storage", "notifications" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.1"
